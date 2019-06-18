@@ -1,0 +1,5 @@
+f = open("C:/Users/User/Desktop/python2.txt", 'r', encoding = 'utf-8')
+g = open("C:/Users/User/Desktop/python3.txt", 'w', encoding = 'utf-8')
+s = f.read()
+n = g.write(s)
+print(s,n)
